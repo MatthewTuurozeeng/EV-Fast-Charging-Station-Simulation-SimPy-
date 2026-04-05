@@ -1,7 +1,7 @@
 # EV Fast‑Charging Station with Dynamic Pricing — Analytical Report
 
 **Project date:** 3 April 2026  
-**Author:** _(draft)_
+**Author:** Matthew Tuurozeeng
 
 ## Executive summary
 This project builds a discrete‑event simulation (DES) of a highway rest stop with **six DC fast chargers** and evaluates a **dynamic pricing rule** that increases price when the queue exceeds three vehicles. The model compares baseline fixed‑price behavior with a dynamic‑pricing scenario and reports queue length, waiting time, utilization, and revenue metrics. The results show **very light congestion** under the chosen parameters; as a result, dynamic pricing is rarely triggered and the two scenarios are nearly identical. This highlights a core modeling insight: **pricing policies only matter when the system is near or above capacity**.
